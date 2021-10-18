@@ -24,7 +24,7 @@ public class Drown implements Listener {
     public void onJoin(PlayerJoinEvent e) {
         Player player = e.getPlayer();
         player.setVelocity(new Vector(player.getVelocity().getX(), player.getVelocity().getY() / 0.01, player.getVelocity().getZ()));
-        player.setFallDistance(player.getFallDistance() / 3.0f); //Please ignore the Velocity part, I know its wrong cause I tested it and it doesn't work. If you guys want to as well explain how to fix this feel free to do so, but for the most part I'll try figuring out how to fix it later...
+        player.setFallDistance(player.getFallDistance() / 3.0f); //will fix later
         player.addPotionEffect(new PotionEffect(PotionEffectType.JUMP, Integer.MAX_VALUE, 3));
         player.sendMessage(String.valueOf(this.prefix) + (Object)ChatColor.DARK_AQUA + "You have entered a space realm...");
         player.addPotionEffect(new PotionEffect(PotionEffectType.POISON, Integer.MAX_VALUE, 1));
