@@ -1,0 +1,6 @@
+name: Dreamaxolotlrecreation
+version: '${project.version}'
+main: me.brandon.dreamaxolotl.recreation.dreamaxolotlrecreation.Dreamaxolotlrecreation
+api-version: 1.17
+authors: [ Brandonbr1 ]
+description: A plugin inspired by dream minecraft but you are an axolotl
